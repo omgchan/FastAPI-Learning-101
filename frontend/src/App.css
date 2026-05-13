@@ -1,0 +1,14 @@
+(/* Basic styling for CRUD demo */)
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.App { max-width: 700px; margin: 36px auto; padding: 0 16px; }
+.app-header { text-align: center; margin-bottom: 20px; }
+.panel { background: #fff; border: 1px solid #eee; padding: 16px; border-radius: 8px; }
+.todo-form { display: flex; gap: 8px; margin-bottom: 12px; }
+.todo-form input { flex: 1; padding: 8px 10px; border-radius: 4px; border: 1px solid #ccc; }
+.todo-form button { padding: 8px 12px; border-radius: 4px; cursor: pointer; }
+.todo-form .muted { background: transparent; border: 1px solid #ddd; }
+.todo-list { list-style: none; padding: 0; margin: 0; }
+.todo-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #f1f1f1; }
+.todo-item .actions button { margin-left: 8px; }
+.danger { background: #ffecec; border: 1px solid #ffb4b4; }
+
